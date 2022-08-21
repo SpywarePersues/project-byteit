@@ -16,7 +16,7 @@ export default function deg(){
                 <div className="lg:w-9/12 flex justify-around mx-auto shadow-lg shadow-slate-900 rounded-lg py-5 px-7 font-Finlandica my-3 lg:my-0 cursor-pointer bg-gradient-to-t from-[#141E30] to-[#243B55]">
                     <div className="text-xl">
                         <p>Type: <span className="text-green-500">Poison</span></p>
-                        <p className="text-yellow-500 py-5">Found in the clouds of poisonous gases, this pokemon like the smell of carbon emmision from vehicles. He can go to places you can't and that makes it difficult to catch.</p>
+                        <p className="text-yellow-500 py-5">Found in the clouds of poisonous gases, this pokemon like the smell of carbon emmision from vehicles. He can go to places you cannott and that makes it difficult to catch.</p>
                         <DegChart />
                     </div>
                     <div>

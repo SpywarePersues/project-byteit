@@ -16,7 +16,7 @@ export default function clawchan(){
                 <div className="lg:w-9/12 flex justify-around mx-auto shadow-lg shadow-slate-900 rounded-lg py-5 px-7 font-Finlandica my-3 lg:my-0 cursor-pointer bg-gradient-to-t from-[#141E30] to-[#243B55]">
                     <div className="text-xl">
                         <p>Type: <span className="text-green-500">Psychic</span></p>
-                        <p className="text-yellow-500 py-5">Usually roam around rich people, loves shiny objects. A clever being, quite tricky to catch her but she loves 'Shiny' things. Beware she can also rob you</p>
+                        <p className="text-yellow-500 py-5">Usually roam around rich people, loves shiny objects. A clever being, quite tricky to catch her but she loves Shiny things. Beware she can also rob you</p>
                         <ClawchanChart />
                     </div>
                     <div>
