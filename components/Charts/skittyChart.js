@@ -6,26 +6,26 @@ import {
     Title,
     Tooltip,
     Legend,
-  } from 'chart.js';
-  import { Bar } from 'react-chartjs-2';
-  
-  ChartJS.register(
+} from 'chart.js';
+import { Bar } from 'react-chartjs-2';
+
+ChartJS.register(
     CategoryScale,
     LinearScale,
     BarElement,
     Title,
     Tooltip,
     Legend
-  );
+);
 
-export default function EertChart(){
+export default function SkittyChart(){
 
     const data = {
         labels: ['Attack', 'Defence', 'HP', 'Speed', 'Special Attack'],
         datasets : [
             {
-                label: 'Eert',
-                data : [86, 75, 79, 81, 90],
+                label: 'Skitty',
+                data : [55, 64, 45, 79, 72],
                 backgroundColor: [
                         'rgba(255, 99, 132, 0.2)',
                         'rgba(54, 162, 235, 0.2)',
