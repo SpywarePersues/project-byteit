@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState as UseState, useEffect as UseEffect } from 'react'
 import Navbar from '../components/Navbar'
 import Link from 'next/link'
 import PokeOwned from '../components/PokeOwned'
 
 function pokemons() {
-    const [token, setToken] = useState("")
+    const [token, setToken] = UseState("")
 
-    useEffect(() => {
+    UseEffect(() => {
         setToken(sessionStorage.getItem('Token'))
     }, [])
     return (
