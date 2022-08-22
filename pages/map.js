@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Navbar from "../components/Navbar";
+import Link from 'next/link'
 
 export default function Map(){
     return(
@@ -10,7 +11,11 @@ export default function Map(){
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <Navbar />
-            <img src="./map.png" className="pt-[6.2rem] h-[43.4rem] w-[40rem] ml-[26rem]" />
+            <img src='./sam-oak.png' className='w-48 fixed bottom-0 left-0'/>
+            <div className="flex flex-col justify-center h-screen">
+                <p className="w-4/12 mx-auto text-center text-xl py-5 text-yellow-500">Some Pokemons may not be seen on the map... You need to listen to your inner soul to find them.</p>
+                <img src="./map.png" className="lg:w-96 w-11/12 mx-auto" />
+            </div>
         </div>
     )
 }

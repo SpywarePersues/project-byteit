@@ -115,7 +115,7 @@ function feedback() {
                     `}
                 </style>
                 <p className="text-center w-fit mx-auto font-Indie text-5xl p-5 mb-10 font-bold text-white font-Finlandica pt-32 lg:pt-0">OUR GUESTBOOK</p>
-                <p className="w-3/3 pb-8 font-sans lg:w-2/3 text-white text-1xl">Leave a comment below to sign our Guestbook. It could literally be anything - a joke, a quote or even a cool fact. We just love to hear you!</p>
+                <p className="w-3/3 pb-8 font-sans lg:w-2/3 text-white text-1xl">Leave a comment below to sign our Guestbook. It could literally be anything - a joke, or if you found a pokemon hideout, or a new pokemon!!</p>
                 {localStorage.getItem("sent") ?
                     <div className="border-2 py-1 px-3 border-cyan-600 w-fit bg-blue-800 bg-opacity-20 text-white">Thank you for your kind words!</div>:
                     name ?
@@ -134,7 +134,7 @@ function feedback() {
                     </div>:
                         <Link href="/login">
                             <div>
-                                <div className="border-2 py-1 px-3 cursor-pointer border-cyan-600 w-fit hover:bg-blue-800 hover:bg-opacity-20">
+                                <div className="border-2 text-xl py-1 px-3 cursor-pointer font-Finlandica text-gray-100 border-purple-800 w-fit hover:bg-purple-900 hover:bg-opacity-70">
                                     Login to comment
                                 </div>
                                 <p className="font-extralight py-2 ">Your information is only used to display your name to avoid impersonation.</p>

@@ -17,10 +17,10 @@ export default function New(){
                     <img src='./map-logo.png' className='w-40 rounded-md'/> 
                     </div>
                 </Link>
-                <div className="py-32">
-                <p className="text-4xl font-Bungee text-gray-100 text-center py-10">New Pokemons Found in Delhi</p>
-                <PokeCards />
-            </div>
+                <div className="py-60 lg:py-32">
+                    <p className="text-4xl font-Bungee text-gray-100 text-center py-10">New Pokemons Found in Delhi</p>
+                    <PokeCards />
+                </div>
         </div>
     )
 }
