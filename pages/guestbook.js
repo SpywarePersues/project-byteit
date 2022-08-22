@@ -125,7 +125,7 @@ function feedback() {
                             <textarea name="message" required className='shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 mb-3 leading-tight focus:outline-none focus:shadow-outline' value={message} onChange={(e) => setmessage(e.target.value)} />
                         </p>
                         <p className="text-center">
-                            <div className='cursor-pointer bg-gradient-to-r from-teal-700 to-cyan-900 hover:bg-gradient-to-l rounded-md w-[12rem] ml-[29.5rem]'>
+                            <div className='cursor-pointer bg-gradient-to-r from-teal-700 to-cyan-900 hover:bg-gradient-to-l rounded-md lg:w-[12rem] '>
                                 <button type="submit" onClick={submitHandler} className="font-Finlandica py-2 px-7 text-3xl text-white">
                                     Submit
                                 </button>
@@ -143,7 +143,7 @@ function feedback() {
                 }
                 <br></br>
                 <br></br>
-                <div className="mb-10">
+                <div className="py-10">
                 {
                     reviews.map(review => <div key={review.id} className="py-5 flex border-zinc-600 border-b-2 lg:w-2/3 dark:border-gray-500"><div><img src={review.pfp} className="px-2 rounded-xl hidden w-24 lg:block"/></div><div className="pl-10 align-middle"><p className="text-xl text-white">{review.message}</p><p className="text-l pt-2 font-light text-gray-600 dark:text-gray-300">- {review.name}</p></div></div>)
                 }
