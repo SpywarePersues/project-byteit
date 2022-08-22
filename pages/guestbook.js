@@ -53,7 +53,7 @@ function feedback() {
         localStorage.setItem("sent", true)
     }
     return (
-        <div style={{backgroundImage: "url('https://www.xtrafondos.com/en/descargar.php?id=3063&resolucion=1280x720')"}} className="min-h-[100vh] bg-fixed bg-cover h-fit">
+        <div style={{backgroundImage: "url('https://www.xtrafondos.com/en/descargar.php?id=3063&resolucion=1280x720')"}} className="bg-black min-h-[100vh] bg-fixed bg-cover h-fit">
             <Navbar />
             <Head>
                     <title>Feedback</title>
