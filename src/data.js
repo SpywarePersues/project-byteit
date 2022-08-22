@@ -5,7 +5,8 @@ const data = [
         "slug": "/pokemons/eert",
         "type": "Grass",
         "description": "Found in the forested regions of central delhi, A fun loving pokemon that is easy to catch. Look carefully as they may camouflage between tress.",
-        "url": "./poke1.png"
+        "url": "./poke1.png",
+        "gotFor": "Free"
     },
     {
         "name": "Clawchan",
@@ -13,7 +14,8 @@ const data = [
         "slug": "/pokemons/clawchan",
         "type": "Psychic",
         "description": "Usually roam around rich people, loves shiny objects. A clever being, quite tricky to catch her but she loves 'Shiny' things. Beware she can also rob you",
-        "url": "./poke2.png"
+        "url": "./poke2.png",
+        "gotFor": "Completing Sign Up"
     },
     {
         "name": "Quick",
@@ -21,7 +23,8 @@ const data = [
         "slug": "/pokemons/quick",
         "type": "Water",
         "description": "Found in the clean water patches in Yamuna, catching it is as difficult as finding a clean water patch in Yamuna, they like to lay in warm sun.",
-        "url": "./poke3.png"
+        "url": "./poke3.png",
+        "gotFor": "Purchased"
     },
     {
         "name": "Deg",
@@ -29,7 +32,8 @@ const data = [
         "slug": "/pokemons/deg",
         "type": "poison",
         "description": "Found in the clouds of poisonous gases, this pokemon like the smell of carbon emmision from vehicles. He can go to places you can't and that makes it difficult to catch.",
-        "url": "./poke4.png"
+        "url": "./poke4.png",
+        "gotFor": "Purchased"
     },
     {
         "name": "Skitty",
@@ -37,8 +41,9 @@ const data = [
         "slug": "/pokemons/skitty",
         "type": "Fairy",
         "description": "A shy pokemon who loves to travel in Delhi metro, She usually does not interact with people but she could be one of the best companion.",
-        "url": "./poke5.png"
+        "url": "./poke5.png",
+        "gotFor": "Purchased"
     }
-  ]
+]
 
 export default data;
