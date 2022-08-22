@@ -43,7 +43,7 @@ export default function Login(){
     }
 
     return(
-        <div className="bg-[url('../public/background.jpg')] bg-cover h-[100vh] bg-fixed">
+        <div style={{backgroundImage: "url('https://www.xtrafondos.com/en/descargar.php?id=3063&resolucion=1280x720')"}} className="bg-cover h-[100vh] bg-fixed">
             {token ? (
                 <Head>
                     <title>My Account</title>

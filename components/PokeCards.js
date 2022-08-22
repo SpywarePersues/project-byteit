@@ -5,7 +5,7 @@ export default function PokeCards(){
 
     console.log(data)
     return(
-        <div className="text-gray-100 bg-[url('../public/background.jpg')] bg-fixed bg-cover h-fit">
+        <div style={{backgroundImage: "url('https://www.xtrafondos.com/en/descargar.php?id=3063&resolucion=1280x720')"}} className="text-gray-100 bg-fixed bg-cover h-fit">
         <div className="w-7/12 lg:grid grid-cols-3 gap-10 mx-auto pb-10">
         {data.map((poke) => {
                     return (

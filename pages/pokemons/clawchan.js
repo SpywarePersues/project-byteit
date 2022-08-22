@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function clawchan(){
     return(
-        <div className="text-gray-100 bg-[url('../public/background.jpg')] bg-fixed bg-cover h-fit">
+        <div style={{backgroundImage: "url('https://www.xtrafondos.com/en/descargar.php?id=3063&resolucion=1280x720')"}} className="text-gray-100 bg-fixed bg-cover h-fit">
             <Navbar />
             <Link href='/map'>
                 <div className='p-1 m-2 rounded-md bg-gradient-to-r from-violet-900 to-fuchsia-800 fixed cursor-pointer'>

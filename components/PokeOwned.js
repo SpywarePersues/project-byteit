@@ -4,7 +4,7 @@ import Link from "next/link"
 export default function PokeOwned(){
     console.log(data)
     return(
-        <div className="text-gray-100 bg-[url('../public/background.jpg')] bg-fixed bg-cover h-fit">
+        <div style={{backgroundImage: "url('https://www.xtrafondos.com/en/descargar.php?id=3063&resolucion=1280x720')"}} className="text-gray-100 bg-fixed bg-cover h-fit">
         <h1 className="text-4xl font-Bungee text-gray-100 text-center py-1 pb-[3.5rem]">Your Pokemons</h1>
         <div className="w-7/12 lg:grid grid-cols-3 gap-10 mx-auto pb-10">
         {data.map((poke) => {

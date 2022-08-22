@@ -4,3 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.bg{
+    background-image: url('https://imgur.com/a/51Kilnx');
+}

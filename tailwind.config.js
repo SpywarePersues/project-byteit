@@ -9,6 +9,9 @@ module.exports = {
       fontFamily: {
         'Bungee': ['Bungee Shade', 'cursive'],
         'Finlandica': ['Finlandica', 'sans-serif']
+      },
+      backgroundImage: {
+        'hero-bacground': "url('https://imgur.com/a/51Kilnx')"
       }
     },
   },
