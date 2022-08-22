@@ -4,6 +4,7 @@ import { collection, addDoc, onSnapshot, doc, query, orderBy, Timestamp, FieldVa
 import Navbar from '../components/Navbar'
 import { db } from "../firebaseConfig";
 import { RoughNotation } from "react-rough-notation";
+import Link from 'next/link';
 
 function feedback() {
 
