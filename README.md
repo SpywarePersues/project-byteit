@@ -1,4 +1,4 @@
-# Army Public School Delhi Cantt, Result Webapp.
+# Army Public School Delhi Cantt.
 
 Our webapp "Pokemon: The Delhi Saga" is a [Next.js](https://nextjs.org/) project created for the Build.IT Hackathon Organized during the Byte.IT fest.
  
